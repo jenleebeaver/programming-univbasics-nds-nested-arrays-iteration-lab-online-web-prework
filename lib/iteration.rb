@@ -42,11 +42,10 @@ def total_even_pairs(src)
     if isEven1 and isEven2 is true
       total = src[index][0] + src[index][1]
       new_Array.push(total)
-
     end
-    new_Array.push(total_even_N)
     index += 1
   end
+  
   return new_Array
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
