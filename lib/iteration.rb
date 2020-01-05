@@ -34,6 +34,18 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
+  new_Array = []
+  index = 0 
+  while index < src.count do 
+    even_N = src[index].even?
+    if even_N is true 
+      puts total_even_N = even_N.add 
+    end 
+    new_Array.push(total_even_N)  
+    index += 1
+  end
+  return new_Array
+    
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
