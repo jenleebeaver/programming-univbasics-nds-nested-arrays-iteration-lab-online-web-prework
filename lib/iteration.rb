@@ -22,7 +22,10 @@ def find_greater_pair(src)
   index = 0
   while index < src.count do
     max_N = src[index].max
-    max_N.push(str)
+    new_Array.push(max_N)
+    index += 1
+  end
+  return new_Array
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
