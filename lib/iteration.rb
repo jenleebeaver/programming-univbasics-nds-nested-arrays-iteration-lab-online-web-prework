@@ -39,7 +39,7 @@ def total_even_pairs(src)
   while index < src.count do
     isEven1 = src[index][0].even?
     isEven2 = src[index][1].even?
-    if isEven1 and isEven2 is true
+    if isEven1 == true and isEven2 == true
       total = src[index][0] + src[index][1]
       new_Array.push(total)
     end
