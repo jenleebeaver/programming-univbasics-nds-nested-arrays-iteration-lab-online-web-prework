@@ -45,7 +45,7 @@ def total_even_pairs(src)
     end
     index += 1
   end
-  
+
   return new_Array
 
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
